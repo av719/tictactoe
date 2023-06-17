@@ -1,7 +1,6 @@
 board = [[" "," "," "],[" ", " ", " "],[" "," "," "]]
 turnP1 = True
 game = True
-winner = ''
 
 def printBoard(board):
     for i in board:
@@ -50,5 +49,5 @@ while(game):
         if (win(board)): 
             game = False
             break
-    turn(turnP1)
+        else: turn(turnP1)
  
